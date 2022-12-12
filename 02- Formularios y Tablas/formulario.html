@@ -7,19 +7,30 @@
 <body>
     <form action="resultados.html" method="get">
         <div>
-            <label for="usuario">Usuario</label> 
-            <input name="usuario" type="text" id="usuario">
+            <label for="usuario"  >Usuario</label> 
+            <input name="usuario" type="text" id="usuario" required >
         </div>
         <div>
             <label for="comentarios">Comentarios</label>
-            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" required min="1">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="fecha">fecha</label>
+            <input type="date" name="fecha" id="fecha">
         </div>
         <div>
             <label for="Contrasena">Contraseña</label>
-            <input name= "contrasena" typer="text" id="contrasena">
+            <input name= "contrasena" type="password" id="contrasena" required >
         </div>
         
-        <button>enviar</button>
+        <button type="submit">Rnviar</button>
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
