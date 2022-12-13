@@ -1,0 +1,22 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25pt;
+}
+
+/* Estoy probando estilos */
+
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 70%;
+    align: center;
+}
+
+.encabezado {
+    color: brown;
+    width: 50%;
+}
