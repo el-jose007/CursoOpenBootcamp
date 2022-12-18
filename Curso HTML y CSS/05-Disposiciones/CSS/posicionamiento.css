@@ -1,0 +1,34 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relativo{
+    position: relative;
+    left: 80px;
+}
+
+.fix{
+    position: fixed;
+    bottom: 50px;
+    left: 0%;
+    background-color: yellowgreen;
+    z-index: 10;
+}
+
+.relative{
+    width: 400px;
+    height: 400px;
+}
+
+.absolute{
+    position: absolute;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
